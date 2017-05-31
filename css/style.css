@@ -1,0 +1,46 @@
+* {  
+    margin:0;
+	padding:0;
+}
+/* 头部样式定义 */
+header{  
+    background-color:#444444;
+	width:1349px;
+	height:100px;
+}
+header > img{  
+    position:relative;
+	top:9px;
+	left:100px;
+}
+nav{  
+    position:absolute;
+	top:25px;
+	left:510px;
+}
+nav ul
+{
+  list-style-type:none;
+  overflow:hidden;
+}
+nav li
+{
+  float:left;
+}
+nav a
+{
+  display:block;
+  color:white;
+  width:200px;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+}
+.nav_sou{  
+  font-size:23px;
+  margin-left:20px;
+  letter-spacing:6px;
+  position:relative;
+  top:-10px;
+}
+/* 底部样式 */

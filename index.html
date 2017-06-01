@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>首页</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
-  <link rel=icon type="image/png" sizes="16x16" href="img/sign.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
   <style type="text/css">
 	#cen_top{  
@@ -59,12 +59,57 @@
 		height:350px;
 		background-color:#e0e0e0;
 	}
+	#cen_bottom > p{  
+	    font-size:22px;
+		letter-spacing:6px;
+		width:112px;
+        border-bottom:5px solid #14a150;
+		padding-bottom:10px;
+		position:relative;
+		top:20px;
+		left:610px;
+	}
+	#cen_bottom_class{  
+	    position:relative;
+		top:45px;
+		left:0px;
+	}
+	.subclasses {  
+	    float:left;
+		margin-left:140px;
+	}
+	.click_button{  
+	    background-image:url("img/按钮.png");
+		background-repeat:no-repeat;
+		width:168px;
+		height:55px;
+		margin-top:10px;
+		padding-top:7px;
+	}
+	.click_button > a{  
+	    text-decoration:none;
+		color:white;
+		font-size:25px;
+		letter-spacing:6px;
+		margin-left:20px;
+	}
+	.more{  
+	    margin:40px 0 10px 20px;
+	}
+	.morea{  
+	    text-decoration:none;
+		font-size:25px;
+		letter-spacing:7px;
+		margin-left:5px;
+		margin-top:15px;
+		color:black;
+	}
   </style>
  </head>
  <body>
   <header>
     <img src="img/logo.png" width="140px" height="81px">
-	<nav>
+	<nav id="header_nav">
 	  <ul>
 		<li><a href="#"><img src="img/index.png" width="35px" height="35px"><span class="nav_sou">首页</span></a></li>
 		<li><a href="#"><img src="img/source.png" width="35px" height="35px" ><span class="nav_sou">商品溯源</span></a></li>
@@ -82,7 +127,41 @@
 	</div>
   </div>
   <div id="cen_bottom">
-	
+	<p>分类查询</p>
+	<div id="cen_bottom_class">
+	  <div class="subclasses">
+		<img src="img/1乳制品.png" width="164px" height="164px">
+		<div class="click_button">
+		  <a href="#">奶制品</a>
+		</div>
+      </div>
+	  <div class="subclasses">
+		<img src="img/2肉制品.png" width="164px" height="164px">
+		<div class="click_button">
+		  <a href="#">肉制品</a>
+		</div>
+      </div>
+	  <div class="subclasses">
+		<img src="img/3生鲜品.png" width="164px" height="164px">
+		<div class="click_button">
+		  <a href="#">生鲜品</a>
+		</div>
+      </div>
+	  <div class="subclasses">
+		<img class="more"src="img/4更多品类.png" width="87px" height="87px"></br>
+        <a class="morea" href="#">更多品类</a>
+      </div>
+	</div>
   </div>
+  <footer>
+    <nav id="footer_nav">
+	  <ul>
+		<li><a href="#"><img src="img/1关于我们.png" width="35px" height="35px"><span class="nav_sou">关于我们</span></a></li>
+		<li><a href="#"><img src="img/2合作联系.png" width="35px" height="35px" ><span class="nav_sou">合作联系</span></a></li>
+		<li><a href="#"><img src="img/3常见问题.png" width="35px" height="35px" ><span class="nav_sou">常见问题</span></a></li>
+		<li><a href="#"><img src="img/4友情链接.png" width="35px" height="35px" ><span class="nav_sou">友情链接</span></a></li>
+	  </ul>
+	</nav>
+  <footer>
  </body>
 </html>
